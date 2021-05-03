@@ -17,7 +17,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_main);
 
         ArrayList<DataPage> list = new ArrayList<>();
         list.add(new DataPage(R.drawable.sample_1,"Starbucks", 4900));
